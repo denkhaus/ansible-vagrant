@@ -1,6 +1,6 @@
 ---
 - name: Download Vagrant
-  get_url: url=https://dl.bintray.com/mitchellh/vagrant/vagrant_{{ vagrant_version }}_{{ vagrant_arch }}.deb
+  get_url: url={{ vagrant_download_url }}
            dest=/usr/local/src/vagrant_{{ vagrant_version }}_{{ vagrant_arch }}.deb
 
 - name: Install Vagrant

@@ -1,3 +1,5 @@
 ---
-vagrant_version: "1.7.2"
+vagrant_version: "1.8.1"
 vagrant_arch: "x86_64"
+
+vagrant_download_url: https://releases.hashicorp.com/vagrant/{{ vagrant_version }}/vagrant_{{ vagrant_version }}_{{ vagrant_arch }}.deb
